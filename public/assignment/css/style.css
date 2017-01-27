@@ -3,5 +3,31 @@ input.form-control {
 }
 
 body {
+    height: 100%;
     padding-top: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.margin-body {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+@media screen and (orientation: portrait){
+    .hide-elements {
+        display: none;
+    }
+}
+
+@media screen and (orientation: landscape){
+    .right-container {
+        float: right;
+        width: 75%;
+    }
+    .left-container {
+        width: 25%;
+    }
 }

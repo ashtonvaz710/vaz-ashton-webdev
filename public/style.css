@@ -1,0 +1,35 @@
+
+course-name {
+    font-family: 'Cookie', cursive;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+my-name {
+     font-family: 'Tangerine', serif;
+     font-size: 48px;
+     text-shadow: 4px 4px 4px #aaa;
+     position: absolute;
+     right: 40px;
+     top: 0px;
+ }
+
+regular {
+    font-family: SansSerif;
+  }
+
+table {
+    margin-left: 60px;
+  }
+th {
+    font-size: 25px;
+}
+
+.header {
+    background-color: #FFDAB9;
+  }
+
+
+.content {
+    background-color: #FFEFD5;
+}
