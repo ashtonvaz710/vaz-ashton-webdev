@@ -9,116 +9,105 @@
 <body>
 
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="row">
+        <div class="row container-fluid">
 
-                <div class="col-xs-1 col-sm-1 col-md-1">
-                    <p class="navbar-text">
-                        <a href="website-list.html" class="navbar-link">
-                            <span class="glyphicon glyphicon-chevron-left" >
-                            </span>
-                        </a>
-                    </p>
+            <div class="col-xs-1 col-sm-1 navbar-text">
+                <a href="website-list.html" class="white">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+            </div>
+
+            <div class="hidden-xs col-sm-2 navbar-brand">
+                <div class="black">
+                    Websites
                 </div>
+            </div>
 
-                <div class="col-xs-2 col-sm-1 col-md-1 navbar-brand hide-elements">
-                        Websites
-                </div>
+            <div class="hidden-xs col-sm-1 navbar-text">
+                <a href="website-new.html" class="white">
+                    <span class="glyphicon glyphicon-plus"></span>
+                </a>
+            </div>
 
-                <div class="col-xs-1 col-sm-1 col-md-1">
-                    <p class="navbar-text">
-                        <a href="website-new.html" class="navbar-link hide-elements">
-                            <span class="glyphicon glyphicon-plus">
-                            </span>
-                        </a>
-                    </p>
-                </div>
-
-                <div class="col-xs-7 col-sm-8 col-md-8 navbar-brand">
+            <div class="col-xs-8 col-sm-6 navbar-brand">
+                <div class="black">
                     New Website
                 </div>
-
-                <div class="col-xs-1 col-sm-1 col-md-1">
-                    <p class="navbar-text">
-                        <a href="website-list.html" class="navbar-link pull-right">
-                            <span class="glyphicon glyphicon-ok">
-                            </span>
-                        </a>
-                    </p>
-                </div>
-
             </div>
+
+            <div class="col-xs-2 col-sm-1 navbar-text pull-right">
+                <a href="website-list.html" class="white">
+                    <span class="glyphicon glyphicon-ok"></span>
+                </a>
+            </div>
+
         </div>
     </nav>
 
-    <div class="margin-body">
-        <div class="container pull-left hide-elements left-container">
+    <div class="container-fluid">
+        <div class="row">
 
-            <div class="row">
-                <div class="col-xs-6 col-md-6">
+            <div class="hidden-xs col-sm-4 vertical-line">
+                <div class="pull-left">
                     <a href="page-list.html">Address Book App</a>
                 </div>
-                <div class="col-xs-1 col-md-1">
+                <div class="pull-right">
                     <a href="website-edit.html">
                         <span class="glyphicon glyphicon-cog"></span>
                     </a>
                 </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-xs-6 col-md-6">
+                <br>
+                <br>
+                <div class="pull-left">
                     <a href="page-list.html">Blogger</a>
                 </div>
-                <div class="col-xs-1 col-md-1">
+                <div class="pull-right">
                     <a href="website-edit.html">
                         <span class="glyphicon glyphicon-cog"></span>
                     </a>
                 </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-xs-6 col-md-6">
+                <br>
+                <br>
+                <div class="pull-left">
                     <a href="page-list.html">Blogging App</a>
                 </div>
-                <div class="col-xs-1 col-md-1">
+                <div class="pull-right">
                     <a href="website-edit.html">
                         <span class="glyphicon glyphicon-cog"></span>
                     </a>
                 </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-xs-6 col-md-6">
+                <br>
+                <br>
+                <div class="pull-left">
                     <a href="page-list.html">Script Testing App</a>
                 </div>
-                <div class="col-xs-1 col-md-1">
+                <div class="pull-right">
                     <a href="website-edit.html">
                         <span class="glyphicon glyphicon-cog"></span>
                     </a>
                 </div>
             </div>
+
+            <div class="col-sm-8">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <textarea rows="5" class="form-control" id="description" placeholder="Description"></textarea>
+                    </div>
+                </form>
+            </div>
+
         </div>
-
-
-        <div class="container right-container">
-            <form>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Name">
-                </div>
-                <div class="form-group">
-                    <label for="description">Description</label>
-                    <textarea rows="5" class="form-control" id="description" placeholder="Description"></textarea>
-                </div>
-            </form>
-        </div>
-
     </div>
 
     <nav class="navbar navbar-default navbar-fixed-bottom">
         <div class="container-fluid">
             <div class="navbar-text pull-right">
-                <a href="profile.html">
+                <a href="profile.html" class="white">
                     <span class="glyphicon glyphicon-user"></span>
                 </a>
             </div>

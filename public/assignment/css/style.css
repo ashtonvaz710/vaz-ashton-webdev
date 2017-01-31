@@ -7,27 +7,52 @@ body {
     padding-top: 36px;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-.margin-body {
-    margin-left: 10px;
-    margin-right: 10px;
     margin-top: 50px;
     margin-bottom: 70px;
+    background-color: #dcdcdc;
 }
 
-@media screen and (orientation: portrait){
-    .hide-elements {
-        display: none;
-    }
+.navbar {
+    background-color: #b0b0b0;
 }
 
-@media screen and (orientation: landscape){
-    .right-container {
-        float: right;
-        width: 75%;
-    }
-    .left-container {
-        width: 25%;
-    }
+.vertical-line {
+    height: 75vh;
+    border-right: 2px solid white;
+    overflow: auto;
 }
+
+.align-center {
+    text-align: center;
+}
+
+.website-name {
+    font-family: 'Cookie', cursive;
+    font-size: 64px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.enter-website {
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 4px 4px #aaa;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+.blank-lines {
+    margin-bottom: 50px;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+

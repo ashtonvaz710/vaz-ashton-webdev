@@ -1,11 +1,16 @@
 
-course-name {
+.course-name, .course-number {
     font-family: 'Cookie', cursive;
-    font-size: 48px;
     text-shadow: 4px 4px 4px #aaa;
 }
+.course-name {
+    font-size: 64px;
+}
+.course-number {
+    font-size: 48px;
+}
 
-my-name {
+.my-name {
      font-family: 'Tangerine', serif;
      font-size: 48px;
      text-shadow: 4px 4px 4px #aaa;
@@ -13,17 +18,6 @@ my-name {
      right: 40px;
      top: 0px;
  }
-
-regular {
-    font-family: SansSerif;
-  }
-
-table {
-    margin-left: 60px;
-  }
-th {
-    font-size: 25px;
-}
 
 .header {
     background-color: #FFDAB9;
