@@ -56,6 +56,6 @@ body {
     color: black;
 }
 
-a:hover {
+a:hover, a:link {
     text-decoration: none;
 }
