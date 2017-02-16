@@ -29,10 +29,9 @@
                 "_id": (new Date()).getTime(),
                 "username": user.username,
                 "password": user.password
-                //"firstName": website.description,
-                //"lastName": website.description
             };
-            websites.push(newUser);
+            users.push(newUser);
+            return newUser;
         }
 
         function findUserById(uid) {

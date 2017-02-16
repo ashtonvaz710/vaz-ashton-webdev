@@ -28,15 +28,12 @@
         };
         return api;
 
-        function createWidget(pageId, widget) {
-            var newWidget = {
-                "_id": (new Date()).getTime(),
-                "widgetType": widget.widgetType,
-                "pageId": pageId,
-                "size": widget.size,
-                "text": widget.text
-            };
+        function createWidget(pid, widget) {
+            widget._id=(new Date()).getTime();
+            widget.pageId=pid;
+
             widgets.push(widget);
+            return angular.copy(widget);
         }
 
         function findWidgetsByPageId(pid) {
@@ -51,7 +48,7 @@
 
         function findWidgetById(widgetId) {
             for(var wg in widgets) {
-                if(widgets[wg]._id === widgetId) {
+                if(widgets[wg]._id == widgetId) {
                     return angular.copy(widgets[wg]);
                 }
             }

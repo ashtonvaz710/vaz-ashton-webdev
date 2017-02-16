@@ -25,14 +25,15 @@
         }
     }
 
-    function registerController(UserService) {
+    function registerController(UserService, $location) {
         var vm = this;
 
         //Event Handlers
         vm.register=register;
 
         function register(user) {
-            var registerUser = UserService.createUser(user);
+            var newUser = UserService.createUser(user);
+            $location.url('/user/' + newUser._id);
         }
     }
 

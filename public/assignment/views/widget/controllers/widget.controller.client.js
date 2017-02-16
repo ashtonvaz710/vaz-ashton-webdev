@@ -26,6 +26,7 @@
         init();
 
         function getEditorTemplateUrl(type) {
+            console.log(type);
             return 'views/widget/templates/editors/widget-'+type+'-edit.view.client.html';
         }
 
@@ -38,8 +39,46 @@
         }
     }
 
-    function newWidgetController(WidgetService, $routeParams) {
+    function newWidgetController(WidgetService, $routeParams, $location) {
         var vm = this;
+
+        //Event Handlers:
+        vm.newHeader=newHeader;
+        vm.newHTML = newHTML;
+        vm.newImage = newImage;
+        vm.newYouTube = newYouTube;
+
+        function init() {
+            vm.userId = $routeParams["uid"];
+            vm.websiteId = $routeParams["wid"];
+            vm.pageId = $routeParams["pid"];
+        }
+        init();
+
+        function newHeader() {
+            var newWidget = { "_id": "", "widgetType": "HEADER", "pageId": "", "size": "", "text": ""};
+            vm.widget = WidgetService.createWidget(vm.pageId, newWidget);
+            $location.url("/user/"+vm.userId+"/website/"+vm.websiteId+"/page/"+vm.pageId+"/widget/"+vm.widget._id);
+        }
+
+        function newHTML() {
+            var newWidget = { "_id": "", "widgetType": "HTML", "pageId": "", "size": "", "text": ""};
+            vm.widget = WidgetService.createWidget(vm.pageId, newWidget);
+            $location.url("/user/"+vm.userId+"/website/"+vm.websiteId+"/page/"+vm.pageId+"/widget/"+vm.widget._id);
+        }
+
+        function newImage() {
+            var newWidget = { "_id": "", "widgetType": "IMAGE", "pageId": "", "size": "", "text": ""};
+            vm.widget = WidgetService.createWidget(vm.pageId, newWidget);
+            $location.url("/user/"+vm.userId+"/website/"+vm.websiteId+"/page/"+vm.pageId+"/widget/"+vm.widget._id);
+        }
+
+        function newYouTube() {
+            var newWidget = { "_id": "", "widgetType": "YOUTUBE", "pageId": "", "size": "", "text": ""};
+            vm.widget = WidgetService.createWidget(vm.pageId, newWidget);
+            $location.url("/user/"+vm.userId+"/website/"+vm.websiteId+"/page/"+vm.pageId+"/widget/"+vm.widget._id);
+        }
+
     }
 
     function widgetListController(WidgetService, $routeParams, $sce) {

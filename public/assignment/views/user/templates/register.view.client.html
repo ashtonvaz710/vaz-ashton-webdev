@@ -34,9 +34,8 @@
                    id="verifyPassword"
                    placeholder="Verify Password">
         </div>
-        <a ng-click="{{model.register(model.user)}}"
-           class="btn btn-primary btn-block"
-           href="#/user/{{model.user._id}}">
+        <a ng-click="model.register(model.user)"
+           class="btn btn-primary btn-block">
             Register
         </a>
         <a class="btn btn-danger btn-block" href="#/login">
