@@ -82,7 +82,7 @@
             })
 
             .when("/user/:uid/website/:wid/page/:pid/widget/new", {
-                templateUrl: "views/widget/templates/widget-new.view.client.html",
+                templateUrl: "views/widget/templates/widget-choose.view.client.html",
                 controller: "NewWidgetController",
                 controllerAs: "model"
             })

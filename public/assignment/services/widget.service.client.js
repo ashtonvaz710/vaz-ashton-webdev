@@ -7,7 +7,7 @@
         .factory("WidgetService", widgetService);
 
     function widgetService() {
-        var users = [
+        var widgets = [
             { "_id": "123", "widgetType": "HEADER", "pageId": "321", "size": 2, "text": "GIZMODO"},
             { "_id": "234", "widgetType": "HEADER", "pageId": "321", "size": 4, "text": "Lorem ipsum"},
             { "_id": "345", "widgetType": "IMAGE", "pageId": "321", "width": "100%",
@@ -28,22 +28,59 @@
         };
         return api;
 
-        function findWidgetsByPageId(pageId) {
-            for(var w in widgets) {
-                if(widgets[w].pageId === pageId) {
-                    return angular.copy(widgets[w]);
+        function createWidget(pageId, widget) {
+            var newWidget = {
+                "_id": (new Date()).getTime(),
+                "widgetType": widget.widgetType,
+                "pageId": pageId,
+                "size": widget.size,
+                "text": widget.text
+            };
+            widgets.push(widget);
+        }
+
+        function findWidgetsByPageId(pid) {
+            var widgetList = [];
+            for(var wg in widgets) {
+                if(widgets[wg].pageId === pid) {
+                    widgetList.push(widgets[wg]);
+                }
+            }
+            return angular.copy(widgetList);
+        }
+
+        function findWidgetById(widgetId) {
+            for(var wg in widgets) {
+                if(widgets[wg]._id === widgetId) {
+                    return angular.copy(widgets[wg]);
                 }
             }
             return null;
         }
 
-        function findWidgetById(widgetId) {
-            for(var w in widgets) {
-                if(widgets[w]._id === widgetId) {
-                    return angular.copy(widgets[w]);
+        function updateWidget(widgetId, newWidget) {
+            for(var wg in widgets) {
+                if(widgets[wg]._id === widgetId) {
+                    if(newWidget.widgetType == "HEADER" || newWidget.widgetType == "HTML") {
+                        widgets[wg].size = newWidget.size;
+                        widgets[wg].text = newWidget.text;
+                    }
+                    else if(newWidget.widgetType == "IMAGE" || newWidget.widgetType == "YOUTUBE") {
+                        widgets[wg].width = newWidget.width;
+                        widgets[wg].url = newWidget.url;
+                        console.log("service, width: "+widgets[wg].width);
+                        console.log("service, width: "+newWidget.width);
+                    }
                 }
             }
-            return null;
+        }
+
+        function deleteWidget(wgid) {
+            for(var wg in widgets) {
+                if(widgets[wg]._id === wgid) {
+                    widgets.splice(wg, 1);
+                }
+            }
         }
     }
 })();

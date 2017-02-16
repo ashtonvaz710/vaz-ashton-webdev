@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top">
+<!--<nav class="navbar navbar-default navbar-fixed-top">
     <div class="row container-fluid">
 
         <div class="col-xs-1 navbar-text">
@@ -30,23 +30,12 @@
         </div>
         <div class="form-group">
             <label for="text">Text</label>
-            <input type="text" class="form-control" id="text" placeholder="Text">
-        </div>
-        <div class="form-group">
-            <label for="url">URL</label>
-            <input type="text" class="form-control" id="url" value="https://pbs.twimg.com/media/C2tYx38UoAAwiU1.jpg">
-        </div>
-        <div class="form-group">
-            <label for="width">Width</label>
-            <input type="text" class="form-control" id="width" value="100%">
+            <input type="text" class="form-control" id="text" value="Atletico's Antoine Griezmann has been linked with an £86m move to Man United">
         </div>
         <div class="form-group blank-lines">
-            <label for="upload">Upload</label>
-            <input type="file" class="form-control" id="upload">
+            <label for="size">Size</label>
+            <input type="text" class="form-control" id="size" value="3">
         </div>
-        <a class="btn btn-primary btn-block" href="#">
-            Upload Image
-        </a>
         <a class="btn btn-danger btn-block" href="#/user/:uid/page/:wid/page/:pid/widget">
             Delete
         </a>
@@ -62,3 +51,13 @@
         </div>
     </div>
 </nav>
+-->
+
+<div ng-switch="widget.size">
+    <h1 ng-switch-when="1">{{widget.text}}</h1>
+    <h2 ng-switch-when="2">{{widget.text}}</h2>
+    <h3 ng-switch-when="3">{{widget.text}}</h3>
+    <h4 ng-switch-when="4">{{widget.text}}</h4>
+    <h5 ng-switch-when="5">{{widget.text}}</h5>
+    <h6 ng-switch-when="6">{{widget.text}}</h6>
+</div>

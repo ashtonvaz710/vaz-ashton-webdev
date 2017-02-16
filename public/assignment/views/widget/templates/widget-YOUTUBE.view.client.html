@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top">
+<!--<nav class="navbar navbar-default navbar-fixed-top">
     <div class="row container-fluid">
 
         <div class="col-xs-1 navbar-text">
@@ -30,11 +30,15 @@
         </div>
         <div class="form-group">
             <label for="text">Text</label>
-            <input type="text" class="form-control" id="text" value="Atletico's Antoine Griezmann has been linked with an £86m move to Man United">
+            <input type="text" class="form-control" id="text" placeholder="Text">
+        </div>
+        <div class="form-group">
+            <label for="url">URL</label>
+            <input type="text" class="form-control" id="url" value="https://www.youtube.com/watch?v=FsDSIEq7O08">
         </div>
         <div class="form-group blank-lines">
-            <label for="size">Size</label>
-            <input type="text" class="form-control" id="size" value="3">
+            <label for="width">Width</label>
+            <input type="text" class="form-control" id="width" value="100%">
         </div>
         <a class="btn btn-danger btn-block" href="#/user/:uid/page/:wid/page/:pid/widget">
             Delete
@@ -51,3 +55,6 @@
         </div>
     </div>
 </nav>
+-->
+
+<iframe width="100%" src="{{model.getYouTubeEmbedUrl(widget.url)}}" frameborder="0" allowfullscreen></iframe>

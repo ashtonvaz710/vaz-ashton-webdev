@@ -1,0 +1,34 @@
+<div class="container">
+    <h1 class="blank-lines">Header Editor</h1>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input ng-model="model.widget.name"
+                   type="text"
+                   class="form-control"
+                   id="name"
+                   placeholder="Name">
+        </div>
+        <div class="form-group">
+            <label for="text">Text</label>
+            <input ng-model="model.widget.text"
+                   type="text"
+                   class="form-control"
+                   id="text">
+        </div>
+        <div class="form-group blank-lines">
+            <label for="size">Size</label>
+            <input ng-model="model.widget.size"
+                   class="form-control"
+                   id="size"
+                   type="number"
+                   min="1"
+                   max="6">
+        </div>
+        <a ng-click="model.deleteWidget()"
+           class="btn btn-danger btn-block"
+           href="#/user/{{model.userId}}/website/{{model.websiteId}}/page/{{model.pageId}}/widget">
+            Delete
+        </a>
+    </form>
+</div>
