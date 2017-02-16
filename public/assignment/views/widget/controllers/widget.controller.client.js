@@ -97,7 +97,6 @@
 
         function getWidgetTemplateUrl(widgetType) {
             var url = 'views/widget/templates/widget-'+widgetType+'.view.client.html';
-            console.log(widgetType);
             return url;
         }
 
