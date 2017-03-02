@@ -23,11 +23,6 @@ module.exports = function (app) {
         newPage.websiteId = websiteId;
         pages.push(newPage);
         res.json(newPage);
-        // var newWebsite = req.body;
-        // newWebsite._id = (new Date()).getTime() + "";
-        // newWebsite.developerId = req.params.uid;
-        // websites.push(newWebsite);
-        // res.json(newWebsite);
     }
 
     function findAllPagesForWebsite(req, res) {

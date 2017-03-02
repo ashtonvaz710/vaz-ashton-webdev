@@ -114,10 +114,6 @@
                 .success(function (widgets) {
                     vm.widgets = widgets;
                 });
-
-            // $("#widget-list").sortable({
-            //     axis: "y"
-            // });
         }
         init();
 

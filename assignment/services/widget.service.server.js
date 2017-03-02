@@ -4,9 +4,7 @@
 
 module.exports = function (app) {
 
-    var multer = require('multer'); // npm install multer --save
-    // var upload = multer({ dest: __dirname+'/../../public/uploads' });
-    // app.post ("/api/upload", upload.single('myFile'), uploadImage);
+    var multer = require('multer');
 
     var storage = multer.diskStorage({
         destination: function (req, file, cb) {

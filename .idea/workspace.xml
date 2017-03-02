@@ -3,52 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5a76defe-feb3-4fb4-910a-1ddaccb8a7b1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/content-disposition/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/content-disposition/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/content-disposition/LICENSE" afterPath="$PROJECT_DIR$/node_modules/content-disposition/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/content-disposition/README.md" afterPath="$PROJECT_DIR$/node_modules/content-disposition/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/content-disposition/index.js" afterPath="$PROJECT_DIR$/node_modules/content-disposition/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/content-disposition/package.json" afterPath="$PROJECT_DIR$/node_modules/content-disposition/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/etag/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/etag/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/etag/LICENSE" afterPath="$PROJECT_DIR$/node_modules/etag/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/etag/README.md" afterPath="$PROJECT_DIR$/node_modules/etag/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/etag/index.js" afterPath="$PROJECT_DIR$/node_modules/etag/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/etag/package.json" afterPath="$PROJECT_DIR$/node_modules/etag/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/History.md" afterPath="$PROJECT_DIR$/node_modules/express/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/LICENSE" afterPath="$PROJECT_DIR$/node_modules/express/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/Readme.md" afterPath="$PROJECT_DIR$/node_modules/express/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/index.js" afterPath="$PROJECT_DIR$/node_modules/express/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/application.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/express.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/express.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/middleware/init.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/request.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/request.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/response.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/response.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/router/layer.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/router/route.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/view.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/view.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/package.json" afterPath="$PROJECT_DIR$/node_modules/express/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/finalhandler/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/finalhandler/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/finalhandler/LICENSE" afterPath="$PROJECT_DIR$/node_modules/finalhandler/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/finalhandler/README.md" afterPath="$PROJECT_DIR$/node_modules/finalhandler/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/finalhandler/index.js" afterPath="$PROJECT_DIR$/node_modules/finalhandler/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/finalhandler/package.json" afterPath="$PROJECT_DIR$/node_modules/finalhandler/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fresh/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/fresh/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fresh/LICENSE" afterPath="$PROJECT_DIR$/node_modules/fresh/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fresh/README.md" afterPath="$PROJECT_DIR$/node_modules/fresh/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fresh/index.js" afterPath="$PROJECT_DIR$/node_modules/fresh/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fresh/package.json" afterPath="$PROJECT_DIR$/node_modules/fresh/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/send/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/send/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/send/LICENSE" afterPath="$PROJECT_DIR$/node_modules/send/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/send/README.md" afterPath="$PROJECT_DIR$/node_modules/send/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/send/index.js" afterPath="$PROJECT_DIR$/node_modules/send/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/send/package.json" afterPath="$PROJECT_DIR$/node_modules/send/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/serve-static/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/serve-static/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/serve-static/LICENSE" afterPath="$PROJECT_DIR$/node_modules/serve-static/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/serve-static/README.md" afterPath="$PROJECT_DIR$/node_modules/serve-static/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/serve-static/index.js" afterPath="$PROJECT_DIR$/node_modules/serve-static/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/serve-static/package.json" afterPath="$PROJECT_DIR$/node_modules/serve-static/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment/services/page.service.server.js" afterPath="$PROJECT_DIR$/assignment/services/page.service.server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment/services/widget.service.server.js" afterPath="$PROJECT_DIR$/assignment/services/widget.service.server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assignment/views/widget/controllers/widget.controller.client.js" afterPath="$PROJECT_DIR$/public/assignment/views/widget/controllers/widget.controller.client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assignment/views/widget/templates/widget-list.view.client.html" afterPath="$PROJECT_DIR$/public/assignment/views/widget/templates/widget-list.view.client.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,58 +25,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/assignment/index.html">
+      <file leaf-file-name="page.service.client.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assignment/services/page.service.client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="widget-list.view.client.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assignment/views/widget/templates/widget-list.view.client.html">
+      <file leaf-file-name="user.service.client.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assignment/services/user.service.client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="572">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="widget.controller.client.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assignment/views/widget/controllers/widget.controller.client.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="119" column="18" lean-forward="true" selection-start-line="117" selection-start-column="12" selection-end-line="119" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wbdv-sortable.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assignment/directives/wbdv-sortable.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="widget.service.server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment/services/widget.service.server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/assignment/views/widget/editors/widget-youtube-edit.view.client.html" />
         <option value="$PROJECT_DIR$/public/assignment/views/widget/templates/widget-html.view.client.html" />
         <option value="$PROJECT_DIR$/public/assignment/views/widget/templates/widget-image.view.client.html" />
         <option value="$PROJECT_DIR$/public/assignment/views/widget/templates/widget-youtube.view.client.html" />
@@ -173,7 +105,6 @@
         <option value="$PROJECT_DIR$/assignment/services/user.service.server.js" />
         <option value="$PROJECT_DIR$/public/assignment/services/website.service.client.js" />
         <option value="$PROJECT_DIR$/public/assignment/services/page.service.client.js" />
-        <option value="$PROJECT_DIR$/assignment/services/page.service.server.js" />
         <option value="$PROJECT_DIR$/public/assignment/views/page/templates/page-edit.view.client.html" />
         <option value="$PROJECT_DIR$/public/assignment/views/page/templates/page-new.view.client.html" />
         <option value="$PROJECT_DIR$/public/assignment/views/website/templates/website-new.view.client.html" />
@@ -188,13 +119,15 @@
         <option value="$PROJECT_DIR$/public/assignment/css/style.css" />
         <option value="$PROJECT_DIR$/public/assignment/services/widget.service.client.js" />
         <option value="$PROJECT_DIR$/public/assignment/views/widget/templates/editors/widget-IMAGE-edit.view.client.html" />
-        <option value="$PROJECT_DIR$/assignment/services/widget.service.server.js" />
         <option value="$PROJECT_DIR$/public/assignment/directives/jga-directives.js" />
-        <option value="$PROJECT_DIR$/public/assignment/views/widget/controllers/widget.controller.client.js" />
         <option value="$PROJECT_DIR$/public/assignment/directives/wbdv-directives.js" />
         <option value="$PROJECT_DIR$/public/assignment/directives/wbdv-sortable.js" />
-        <option value="$PROJECT_DIR$/public/assignment/views/widget/templates/widget-list.view.client.html" />
         <option value="$PROJECT_DIR$/public/assignment/index.html" />
+        <option value="$PROJECT_DIR$/assignment/services/widget.service.server.js" />
+        <option value="$PROJECT_DIR$/public/assignment/views/widget/controllers/widget.controller.client.js" />
+        <option value="$PROJECT_DIR$/public/assignment/views/widget/templates/widget-list.view.client.html" />
+        <option value="$PROJECT_DIR$/assignment/services/page.service.server.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -294,167 +227,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vaz-ashton-webdev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vaz-ashton-webdev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vaz-ashton-webdev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vaz-ashton-webdev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vaz-ashton-webdev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vaz-ashton-webdev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vaz-ashton-webdev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vaz-ashton-webdev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vaz-ashton-webdev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vaz-ashton-webdev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vaz-ashton-webdev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vaz-ashton-webdev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -590,12 +363,12 @@
       <workItem from="1485918004347" duration="9436000" />
       <workItem from="1486425936631" duration="1806000" />
       <workItem from="1486428334299" duration="82710000" />
-      <workItem from="1487195095695" duration="118653000" />
+      <workItem from="1487195095695" duration="120017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298649000" />
+    <option name="totallyTimeSpent" value="300013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,7 +381,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18402961" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -617,7 +390,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22650057" sideWeight="0.49603385" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960339" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19365798" sideWeight="0.49391857" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19592299" sideWeight="0.49391857" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -718,14 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assignment/services/user.service.server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -798,32 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/services/user.service.server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="72" column="29" lean-forward="true" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assignment/services/user.service.client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assignment/services/page.service.client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assignment/views/user/templates/profile.view.client.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -871,16 +610,6 @@
         <state relative-caret-position="459">
           <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/services/page.service.server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="56" column="31" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -945,16 +674,6 @@
         <state relative-caret-position="273">
           <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/services/website.service.server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1030,31 +749,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/services/widget.service.server.js">
+    <entry file="file://$PROJECT_DIR$/public/assignment/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assignment/views/widget/controllers/widget.controller.client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="119" column="18" lean-forward="true" selection-start-line="117" selection-start-column="12" selection-end-line="119" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="468">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assignment/views/widget/templates/widget-list.view.client.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="528">
+          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/widget/controllers/widget.controller.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2486">
+          <caret line="115" column="19" lean-forward="false" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1068,10 +785,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assignment/index.html">
+    <entry file="file://$PROJECT_DIR$/assignment/services/website.service.server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="-467">
+          <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/services/widget.service.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/services/page.service.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/services/user.service.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/services/page.service.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/services/user.service.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding />
         </state>
       </provider>
