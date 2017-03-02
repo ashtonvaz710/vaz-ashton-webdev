@@ -21,12 +21,16 @@
             vm.pageId = $routeParams["pid"];
             vm.widgetId = $routeParams["wgid"];
             vm.getEditorTemplateUrl = getEditorTemplateUrl;
-            vm.widget = WidgetService.findWidgetById(vm.widgetId);
+            WidgetService
+                .findWidgetById(vm.widgetId)
+                .success(function (widget) {
+                    vm.widget = widget;
+                })
         }
         init();
 
-        function getEditorTemplateUrl(type) {
-            return 'views/widget/templates/editors/widget-'+type+'-edit.view.client.html';
+        function getEditorTemplateUrl(widgetType) {
+            return 'views/widget/templates/editors/widget-'+widgetType+'-edit.view.client.html';
         }
 
         function updateWidget(newWidget) {
@@ -56,28 +60,43 @@
 
         function newHeader() {
             var newWidget = { "_id": "", "widgetType": "HEADER", "pageId": "", "size": "", "text": ""};
-            vm.widget = WidgetService.createWidget(vm.pageId, newWidget);
-            $location.url("/user/"+vm.userId+"/website/"+vm.websiteId+"/page/"+vm.pageId+"/widget/"+vm.widget._id);
+            WidgetService
+                .createWidget(vm.pageId, newWidget)
+                .success(function (widget) {
+                    vm.widget = widget;
+                    $location.url("/user/"+vm.userId+"/website/"+vm.websiteId+"/page/"+vm.pageId+"/widget/"+vm.widget._id);
+                });
         }
 
         function newHTML() {
             var newWidget = { "_id": "", "widgetType": "HTML", "pageId": "", "size": "", "text": ""};
-            vm.widget = WidgetService.createWidget(vm.pageId, newWidget);
-            $location.url("/user/"+vm.userId+"/website/"+vm.websiteId+"/page/"+vm.pageId+"/widget/"+vm.widget._id);
+            WidgetService
+                .createWidget(vm.pageId, newWidget)
+                .success(function (widget) {
+                    vm.widget = widget;
+                    $location.url("/user/"+vm.userId+"/website/"+vm.websiteId+"/page/"+vm.pageId+"/widget/"+vm.widget._id);
+                });
         }
 
         function newImage() {
             var newWidget = { "_id": "", "widgetType": "IMAGE", "pageId": "", "size": "", "text": ""};
-            vm.widget = WidgetService.createWidget(vm.pageId, newWidget);
-            $location.url("/user/"+vm.userId+"/website/"+vm.websiteId+"/page/"+vm.pageId+"/widget/"+vm.widget._id);
+            WidgetService
+                .createWidget(vm.pageId, newWidget)
+                .success(function (widget) {
+                    vm.widget = widget;
+                    $location.url("/user/"+vm.userId+"/website/"+vm.websiteId+"/page/"+vm.pageId+"/widget/"+vm.widget._id);
+                });
         }
 
         function newYouTube() {
             var newWidget = { "_id": "", "widgetType": "YOUTUBE", "pageId": "", "size": "", "text": ""};
-            vm.widget = WidgetService.createWidget(vm.pageId, newWidget);
-            $location.url("/user/"+vm.userId+"/website/"+vm.websiteId+"/page/"+vm.pageId+"/widget/"+vm.widget._id);
+            WidgetService
+                .createWidget(vm.pageId, newWidget)
+                .success(function (widget) {
+                    vm.widget = widget;
+                    $location.url("/user/"+vm.userId+"/website/"+vm.websiteId+"/page/"+vm.pageId+"/widget/"+vm.widget._id);
+                });
         }
-
     }
 
     function widgetListController(WidgetService, $routeParams, $sce) {
@@ -90,7 +109,15 @@
             vm.userId = $routeParams["uid"];
             vm.websiteId = $routeParams["wid"];
             vm.pageId = $routeParams["pid"];
-            vm.widgets = WidgetService.findWidgetsByPageId(vm.pageId);
+            WidgetService
+                .findAllWidgetsForPage(vm.pageId)
+                .success(function (widgets) {
+                    vm.widgets = widgets;
+                });
+
+            // $("#widget-list").sortable({
+            //     axis: "y"
+            // });
         }
         init();
 

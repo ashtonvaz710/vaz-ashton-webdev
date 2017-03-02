@@ -1,6 +1,7 @@
 <div class="container">
     <h1 class="blank-lines">Image Editor</h1>
-    <form>
+    <form action="/api/upload" method="post" enctype="multipart/form-data">
+
         <div class="form-group">
             <label for="name">Name</label>
             <input type="text"
@@ -22,7 +23,7 @@
                    type="text"
                    class="form-control"
                    id="url"
-                   value="https://pbs.twimg.com/media/C2tYx38UoAAwiU1.jpg">
+                   placeholder="URL">
         </div>
         <div class="form-group">
             <label for="width">Width</label>
@@ -30,17 +31,20 @@
                    type="text"
                    class="form-control"
                    id="width"
-                   value="100%">
+                   value="100%"
+                   placeholder="Width">
         </div>
-        <div class="form-group blank-lines">
-            <label for="upload">Upload</label>
-            <input type="file"
-                   class="form-control"
-                   id="upload">
+
+        <div class="form-group">
+            <label for="widgetUpload">Upload</label>
+            <input type="file" id="widgetUpload" name="myFile" class="form-control"/>
+            <input name="widgetId" value="{{model.widgetId}}" style="display: none"/>
+            <input name="userId" value="{{model.userId}}" style="display: none"/>
+            <input name="websiteId" value="{{model.websiteId}}" style="display: none"/>
+            <input  name="width" value="{{model.widget.width}}" style="display: none"/>
+            <button type="submit" class="btn btn-block btn-primary">Upload Image</button>
         </div>
-        <a class="btn btn-primary btn-block" href="#">
-            Upload Image
-        </a>
+
         <a ng-click="model.deleteWidget()"
            class="btn btn-danger btn-block"
            href="#/user/{{model.userId}}/website/{{model.websiteId}}/page/{{model.pageId}}/widget">

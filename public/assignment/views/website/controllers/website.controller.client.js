@@ -18,8 +18,16 @@
         function init() {
             vm.userId = $routeParams["uid"];
             vm.websiteId = $routeParams["wid"];
-            vm.userWebsites = WebsiteService.findWebsitesByUser(vm.userId);
-            vm.website = WebsiteService.findWebsiteById(vm.websiteId);
+            WebsiteService
+                .findAllWebsitesForUser(vm.userId)
+                .success(function (websites) {
+                    vm.userWebsites = websites;
+                });
+            WebsiteService
+                .findWebsiteById(vm.websiteId)
+                .success(function (website) {
+                    vm.website = website;
+                })
         }
         init();
 
@@ -40,24 +48,34 @@
 
         function init() {
             vm.userId = $routeParams["uid"];
-            vm.userWebsites = WebsiteService.findWebsitesByUser(vm.userId);
+            WebsiteService
+                .findAllWebsitesForUser(vm.userId)
+                .success(function (website) {
+                    vm.userWebsites = website;
+                });
         }
         init();
 
         function createWebsite(newWebsite) {
-            WebsiteService.createWebsite(vm.userId, newWebsite);
+            WebsiteService
+                .createWebsite(vm.userId, newWebsite)
+                .success(function (website) {
+                    vm.userWebsites = website;
+                })
         }
     }
 
     function websiteListController(WebsiteService, $routeParams) {
         var vm = this;
+        vm.userId = $routeParams["uid"];
 
         function init() {
-            vm.userId = $routeParams["uid"];
-            vm.websites = WebsiteService.findWebsitesByUser(vm.userId);
+            WebsiteService
+                .findAllWebsitesForUser(vm.userId)
+                .success(function (websites) {
+                    vm.websites = websites;
+                })
         }
         init();
     }
-
-
 })();

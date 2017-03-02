@@ -33,7 +33,8 @@
             <input ng-model="model.user.username"
                    type="text"
                    class="form-control"
-                   id="username">
+                   id="username"
+                   placeholder="doe.john">
         </div>
         <div class="form-group">
             <label for="email">Email address</label>
@@ -41,29 +42,35 @@
                    type="email"
                    class="form-control"
                    id="email"
-                   placeholder="alice@wonderland.com">
+                   placeholder="john@doe.com">
         </div>
         <div class="form-group">
             <label for="first-name">First Name</label>
             <input ng-model="model.user.firstName"
                    type="text"
                    class="form-control"
-                   id="first-name">
+                   id="first-name"
+                   placeholder="John">
         </div>
         <div class="form-group blank-lines">
             <label for="last-name">Last Name</label>
             <input ng-model="model.user.lastName"
                    type="text"
                    class="form-control"
-                   id="last-name">
+                   id="last-name"
+                   placeholder="Doe">
         </div>
         <a class="btn btn-primary btn-block"
            href="#/user/{{model.userId}}/website">
             Websites
         </a>
-        <a class="btn btn-danger btn-block"
+        <a class="btn btn-danger btn-block blank-lines"
            href="#/login">
             Logout
+        </a>
+        <a ng-click="model.deleteUser(model.user)"
+           class="btn btn-danger btn-block">
+            Delete Account
         </a>
     </form>
 </div>

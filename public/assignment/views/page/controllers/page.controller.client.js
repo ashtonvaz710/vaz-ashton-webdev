@@ -19,17 +19,25 @@
             vm.userId = $routeParams["uid"];
             vm.websiteId = $routeParams["wid"];
             vm.pageId = $routeParams["pid"];
-            vm.page = PageService.findPageById(vm.pageId);
-            vm.websitePages = PageService.findPageByWebsiteId(vm.websiteId);
+            PageService
+                .findPageById(vm.pageId)
+                .success(function (page) {
+                    vm.page = page;
+                });
+            PageService
+                .findAllPagesForWebsite(vm.websiteId)
+                .success(function (pages) {
+                    vm.websitePages = pages;
+                });
         }
         init();
 
         function updatePage(newPage) {
-            var page = PageService.updatePage(vm.pageId, newPage);
+            PageService.updatePage(vm.pageId, newPage);
         }
 
         function deletePage() {
-            var page = PageService.deletePage(vm.pageId);
+            PageService.deletePage(vm.pageId);
         }
     }
 
@@ -42,13 +50,21 @@
         function init() {
             vm.userId = $routeParams["uid"];
             vm.websiteId = $routeParams["wid"];
-            vm.websitePages = PageService.findPageByWebsiteId(vm.websiteId);
+            PageService
+                .findAllPagesForWebsite(vm.websiteId)
+                .success(function (pages) {
+                    vm.websitePages = pages;
+                })
         }
 
         init();
 
         function createPage(newPage) {
-            PageService.createPage(vm.websiteId, newPage);
+            PageService
+                .createPage(vm.websiteId, newPage)
+                .success(function (page) {
+                    vm.websitePages = page;
+                })
         }
     }
 
@@ -58,7 +74,11 @@
         function init() {
             vm.userId = $routeParams["uid"];
             vm.websiteId = $routeParams["wid"];
-            vm.websitePages = PageService.findPageByWebsiteId(vm.websiteId);
+            PageService
+                .findAllPagesForWebsite(vm.websiteId)
+                .success(function (pages) {
+                    vm.websitePages = pages;
+                })
         }
         init();
     }
