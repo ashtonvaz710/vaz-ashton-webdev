@@ -1,22 +1,11 @@
+<div ng-show="model.error"
+     class="alert alert-danger">
+    {{model.error}}
+</div>
+
 <div class="container">
     <h1 class="blank-lines">HTML Editor</h1>
     <form>
-        <!--<div class="form-group">-->
-            <!--<label for="name">Name</label>-->
-            <!--<input ng-model="model.widget.name"-->
-                   <!--type="text"-->
-                   <!--class="form-control"-->
-                   <!--id="name"-->
-                   <!--placeholder="Name">-->
-        <!--</div>-->
-        <!--<div class="form-group">-->
-            <!--<label for="text">Text</label>-->
-            <!--<input ng-model="model.widget.text"-->
-                   <!--type="text"-->
-                   <!--class="form-control"-->
-                   <!--id="text"-->
-                   <!--placeholder="Text">-->
-        <!--</div>-->
         <div class="form-group">
             <div class="blank-lines"
                  ng-model="model.widget.text"

@@ -39,40 +39,5 @@
                     console.log("could not load image");
                 });
         }
-
-
-        // function selectPhoto(photo) {
-        //
-        //     var url = "https://farm" + photo.farm + ".staticflickr.com/" + photo.server;
-        //     url += "/" + photo.id + "_" + photo.secret + "_b.jpg";
-        //     WidgetService
-        //         .findWidgetById(vm.widgetId)
-        //         .then(function (response) {
-        //             var updatedWidget = response.data;
-        //             updatedWidget.url = url;
-        //
-        //             WidgetService
-        //                 .updateWidget(vm.widgetId, updatedWidget)
-        //                 .then(function (response) {
-        //                     var updatedWidgetObject = response;
-        //
-        //                     console.log("2");
-        //
-        //                     if(updatedWidgetObject){
-        //                         $location.url("/user/"+vm.userId+"/website/"+vm.websiteId+"/page/"+vm.pageId+"/widget");
-        //                     }
-        //                 }, function (err) {
-        //
-        //                     console.log("3");
-        //
-        //                     vm.updateerror = "Could not update the widget!";
-        //                 });
-        //         }, function (err) {
-        //
-        //             console.log("4");
-        //
-        //             vm.updateerror = "Could not get the widget!";
-        //         });
-        // }
     }
 })();

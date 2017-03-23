@@ -8,7 +8,7 @@
         .controller("NewWidgetController", newWidgetController)
         .controller("WidgetListController", widgetListController);
 
-    function editWidgetController(WidgetService, $routeParams) {
+    function editWidgetController(WidgetService, $routeParams, $location) {
         var vm = this;
 
         //Event Handlers
@@ -34,7 +34,16 @@
         }
 
         function updateWidget(newWidget) {
-            WidgetService.updateWidget(vm.widgetId, newWidget);
+            if((newWidget.type == "HEADING" && (!newWidget.text || !newWidget.size)) ||
+                (newWidget.type == "IMAGE" && !newWidget.url) ||
+                (newWidget.type == "YOUTUBE" && !newWidget.url)) {
+                vm.error = "Cannot update widget";
+            }
+            else {
+                WidgetService.updateWidget(vm.widgetId, newWidget);
+                $location.url("/user/"+vm.userId+"/website/"+vm.websiteId+"/page/"+vm.pageId+"/widget");
+            }
+
         }
 
         function deleteWidget() {
