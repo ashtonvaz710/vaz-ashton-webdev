@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="WebAppMaker">
 <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
+    <title>Title</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+
     <!-- JQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
     <!-- Touch Punch -->
-    <script src="../jquery.ui.touch-punch.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
 
     <!-- Angular CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
@@ -16,23 +23,29 @@
     <script src="config.js"></script>
     <script src="directives/wbdv-sortable.js"></script>
 
+    <!-- FontAwesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <!-- TextAngular -->
+    <link href="css/textAngular.css" rel="stylesheet"/>
+    <script src="js/textAngular-rangy.min.js"></script>
+    <script src="js/textAngular-sanitize.min.js"></script>
+    <script src="js/textAngular.min.js"></script>
+
     <!-- Controllers -->
     <script src="views/user/controllers/user.controller.client.js"></script>
     <script src="views/website/controllers/website.controller.client.js"></script>
     <script src="views/page/controllers/page.controller.client.js"></script>
     <script src="views/widget/controllers/widget.controller.client.js"></script>
+    <script src="views/widget/controllers/widget-flickr-search.controller.client.js"></script>
 
     <!-- Services -->
     <script src="services/user.service.client.js"></script>
     <script src="services/website.service.client.js"></script>
     <script src="services/page.service.client.js"></script>
     <script src="services/widget.service.client.js"></script>
+    <script src="services/flickr.service.client.js"></script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
-    <title>Title</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="css/style.css" rel="stylesheet"/>
 </head>
 <body>
     <div ng-view></div>

@@ -48,6 +48,7 @@
         //Event Handlers:
         vm.newHeader=newHeader;
         vm.newHTML = newHTML;
+        vm.newText = newText;
         vm.newImage = newImage;
         vm.newYouTube = newYouTube;
 
@@ -59,7 +60,7 @@
         init();
 
         function newHeader() {
-            var newWidget = { "_id": "", "widgetType": "HEADER", "pageId": "", "size": "", "text": ""};
+            var newWidget = { "_id": "", "type": "HEADING", "pageId": "", "size": "", "text": ""};
             WidgetService
                 .createWidget(vm.pageId, newWidget)
                 .success(function (widget) {
@@ -69,7 +70,17 @@
         }
 
         function newHTML() {
-            var newWidget = { "_id": "", "widgetType": "HTML", "pageId": "", "size": "", "text": ""};
+            var newWidget = { "_id": "", "type": "HTML", "pageId": "", "name": "", "size": "", "text": ""};
+            WidgetService
+                .createWidget(vm.pageId, newWidget)
+                .success(function (widget) {
+                    vm.widget = widget;
+                    $location.url("/user/"+vm.userId+"/website/"+vm.websiteId+"/page/"+vm.pageId+"/widget/"+vm.widget._id);
+                });
+        }
+
+        function newText() {
+            var newWidget = { "_id": "", "type": "TEXT", "pageId": "", "text": ""};
             WidgetService
                 .createWidget(vm.pageId, newWidget)
                 .success(function (widget) {
@@ -79,7 +90,7 @@
         }
 
         function newImage() {
-            var newWidget = { "_id": "", "widgetType": "IMAGE", "pageId": "", "size": "", "text": ""};
+            var newWidget = { "_id": "", "type": "IMAGE", "pageId": "", "size": "", "text": ""};
             WidgetService
                 .createWidget(vm.pageId, newWidget)
                 .success(function (widget) {
@@ -89,7 +100,7 @@
         }
 
         function newYouTube() {
-            var newWidget = { "_id": "", "widgetType": "YOUTUBE", "pageId": "", "size": "", "text": ""};
+            var newWidget = { "_id": "", "type": "YOUTUBE", "pageId": "", "size": "", "text": ""};
             WidgetService
                 .createWidget(vm.pageId, newWidget)
                 .success(function (widget) {

@@ -85,7 +85,6 @@
 
         function deleteUser(user) {
             var answer = confirm("Are you sure you want to delete your account?");
-            console.log(answer);
             if(answer) {
                 UserService
                     .deleteUser(vm.userId)

@@ -1,0 +1,18 @@
+<div class="container">
+    <h1 class="blank-lines">Text Editor</h1>
+        <form>
+        Text
+        <input ng-model="model.widget.text" class="form-control"/>
+        Rows
+        <input ng-model="model.widget.rows" class="form-control" type="number"/>
+        Placeholder
+        <input ng-model="model.widget.placeholder" class="form-control"/>
+        Formatted
+        <input ng-model="model.widget.formatted" class="blank-lines" type="checkbox"/>
+        <a ng-click="model.deleteWidget()"
+           class="btn btn-danger btn-block"
+           href="#/user/{{model.userId}}/website/{{model.websiteId}}/page/{{model.pageId}}/widget">
+            Delete
+        </a>
+    </form>
+</div>
