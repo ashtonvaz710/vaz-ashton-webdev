@@ -16,8 +16,8 @@ module.exports = function (app) {
     var end_lng;
 
     function lyftCallback(req, res) {
-        var client_ID = "Fy7prF8Kz1qO";
-        var secret = "Lx47Hczpr03EjuMm8at_oQbc";
+        var client_ID = "2JtO2UT8G2qT";
+        var secret = "W65W1DP31fceKo4bsU30rNc33Xt9_fes";
         var code = req.query.code;
 
         var request = require('request');
@@ -98,8 +98,8 @@ module.exports = function (app) {
 
     function getCostEstimates(req, res) {
 
-        var client_ID = "Fy7prF8Kz1qO";
-        var secret = "Lx47Hczpr03EjuMm8at_oQbc";
+        var client_ID = "2JtO2UT8G2qT";
+        var secret = "W65W1DP31fceKo4bsU30rNc33Xt9_fes";
         var request = require('request');
 
         var headers = {
@@ -130,7 +130,7 @@ module.exports = function (app) {
 
                 var str1 = "";
                 var client_ID = "Fy7prF8Kz1qO";
-                var secret = "Lx47Hczpr03EjuMm8at_oQbc";
+                var secret = "Lx47Hczpr03EjuMm8at_oQbc-NpQO5Xw";
                 var urlBase = "https://api.lyft.com/v1/cost?ride_type=RIDE_TYPE&start_lat=START_LAT&start_lng=START_LNG&end_lat=END_LAT&end_lng=END_LNG";
                 var ride_type = req.query.ride_type;
                 var start_lat = req.query.start_lat;
@@ -171,8 +171,8 @@ module.exports = function (app) {
 
     function getETA(req, res) {
 
-        var client_ID = "Fy7prF8Kz1qO";
-        var secret = "Lx47Hczpr03EjuMm8at_oQbc";
+        var client_ID = "2JtO2UT8G2qT";
+        var secret = "W65W1DP31fceKo4bsU30rNc33Xt9_fes";
         var request = require('request');
 
         var headers = {

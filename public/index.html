@@ -2,50 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
-    <title>Web Dev Course Home Page</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="style.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no  initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+        p {font-size: 16px;}
+        .margin {margin-bottom: 45px;}
+        .bg-1 {
+            /*background-color: #1abc9c; !* Green *!*/
+            color: #ffffff;
+        }
+        .bg-2 {
+            background-color: #474e5d; /* Dark Blue */
+            color: #ffffff;
+        }
+        .bg-3 {
+            background-color: #ffffff; /* White */
+            color: #555555;
+        }
+        .bg-4 {
+            background-color: #2f2f2f; /* Black Gray */
+            color: #fff;
+        }
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+        .navbar-nav  li a:hover {
+            color: #1abc9c !important;
+        }
+    </style>
 </head>
-<body bgcolor="#FFEFD5" class="content">
+<body>
 
-<div class="container-fluid header">
-    <div class="row hidden-xs">
-        <div class="pull-left">
-            <img src="neu-logo2.jpg" class="pull-left">
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Ashton Vaz</a>
         </div>
-        <div class="pull-right">
-            <h3 class="my-name">Ashton Vaz</h3>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://www.youtube.com/watch?v=SZJYMp8Z9v0">VIDEO</a></li>
+            </ul>
         </div>
     </div>
-    <div class="row">
-        <h1 align="center" class="course-name">Web Development</h1>
-    </div>
-    <div class="row">
-        <h2 align="center" class="course-number">CS 5610</h2>
-    </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center" style="background-image: url(images/bg.png);background-size: cover;">
+    <h3 class="margin">CS 5610 - Web Development</h3>
+    <img src="images/LinkedIn_DP.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+    <h3>MS in CS, Northeastern University</h3>
+    <h3 style="color: gray">vaz.a@husky.neu.edu</h3>
 </div>
 
-
-<div class="container-fluid content">
-    <br>
-    <br>
-    <h2>Required links</h2>
-    <ul>
-        <li>
-            <a href="project/index.html">Project</a>
-        </li>
-        <li>
-            <a href="assignment/index.html">Assignment</a>
-        </li>
-        <li>
-            <a href="test/index.html">Test MongoDB</a>
-        </li>
-        <li>
-            <a href="#">Your public repository at GitHub.com</a>
-        </li>
-    </ul>
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+    <div class="col-xs-12 col-sm-3">
+        <button type="button" class="btn btn-primary-outline btn-block" style="margin-bottom: 5%; border-color:white; color: white; background-color: transparent">
+            <a href="assignment/index.html" style="color: white; text-decoration: none">ASSIGNMENT</a>
+        </button>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+        <button type="button" class="btn btn-primary-outline btn-block" style="margin-bottom: 5%; border-color:white; color: white; background-color: transparent">
+            <a href="project/index.html" style="color: white; text-decoration: none">PROJECT</a>
+        </button>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+        <button type="button" class="btn btn-primary-outline btn-block" style="margin-bottom: 5%; border-color:white; color: white; background-color: transparent">
+            <a href="test/index.html" style="color: white; text-decoration: none">TEST MONGODB</a>
+        </button>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+        <button type="button" class="btn btn-primary-outline btn-block" style="border-color:white; color: white; background-color: transparent">
+            <a href="https://github.com/ashtonvaz710/vaz-ashton-webdev" style="color: white; text-decoration: none">GITHUB</a>
+        </button>
+    </div>
 </div>
 
 </body>

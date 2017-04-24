@@ -6,8 +6,8 @@ module.exports = function (app) {
     app.get("/api/address", getAddress);
     app.get("/api/relatedProducts", findRelatedProducts);
 
-    var goodzerAPI_KEY = "549d3008ff4f073a7dd4afb49d878083";
-    var googleAPI_KEY = "AIzaSyDj_DjpbilF86R7i3WriypG09PQTX3IZRo";
+    var goodzerAPI_KEY = "0145bd15e506414874838cabae63c41e";
+    var googleAPI_KEY = "AIzaSyB-tg-qSAqeQumjQ1k2Q8CgtazCYay4uOA";
 
     //var key = "0145bd15e506414874838cabae63c41e";
     //var urlBase = "https://api.goodzer.com/products/v0.1/search_stores/?query=productName&lat=40.714353&lng=-74.005973&radius=5&priceRange=30:120&apiKey=API_KEY";

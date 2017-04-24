@@ -175,6 +175,7 @@ module.exports = function (app, actorModel) {
 
     function findActorsByIds(req, res) {
         var actorIds = req.query.actorIds;
+        console.log(actorIds);
         var actors = actorIds.split(",");
 
         var listOfActors = [];
@@ -450,8 +451,6 @@ module.exports = function (app, actorModel) {
         actorModel
             .findActorByUsername(username)
             .then(function(user) {
-                // console.log(user.password);
-                // console.log(password);
                 if(user && user.accountStatus == 'EXISTS' && bcrypt.compareSync(password, user.password)) {
                     return done(null, user);
                 } else {
@@ -563,7 +562,7 @@ module.exports = function (app, actorModel) {
 
     function createActor(req, res) {
         var newActor = req.body;
-        newActor.password = bcrypt.hashSync(newActor.password);
+        // newActor.password = bcrypt.hashSync(newActor.password);
 
         actorModel
             .createActor(newActor)

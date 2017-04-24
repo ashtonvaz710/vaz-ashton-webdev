@@ -312,6 +312,7 @@
         var actorId;
         vm.addToFollowing = addToFollowing;
         vm.removeFromFollowing = removeFromFollowing;
+        vm.logout = logout;
 
         function init() {
             actorId = $routeParams['actorId'];
@@ -319,6 +320,14 @@
         }
 
         init();
+
+        function logout() {
+            ActorService
+                .logout()
+                .then(function (response) {
+                    $location.url("/");
+                });
+        }
 
         function removeFromFollowing() {
             ActorService
@@ -496,18 +505,40 @@
                         vm.message = "This Username is taken";
                     })
                     .error(function () {
-                        ActorService
-                            .register(newActor)
-                            .success(function (actor) {
-                                if(actor.role == 'CUSTOMER') {
-                                    $location.url("/actor/profile");
-                                } else {
-                                    $location.url("/store-owner/registration/status");
-                                }
-                            })
-                            .error(function () {
-                                vm.error = "Could not register. Server not responding"
-                            });
+
+                        if(newActor.role == 'CUSTOMER') {
+                            ActorService
+                                .register(newActor)
+                                .success(function (actor) {
+                                        $location.url("/actor/profile");
+                                })
+                                .error(function () {
+                                    vm.error = "Could not register. Server not responding"
+                                });
+                        }
+                        else {
+                            ActorService
+                                .createActor(newActor)
+                                .success(function (actor) {
+                                    $location.url("/");
+                                })
+                                .error(function () {
+                                    vm.error = "Could not register. Server not responding"
+                                });
+                        }
+
+                        // ActorService
+                        //     .createActor(newActor)
+                        //     .success(function (actor) {
+                        //         if(actor.role == 'CUSTOMER') {
+                        //             $location.url("/actor/profile");
+                        //         } else {
+                        //             $location.url("/store-owner/registration/status");
+                        //         }
+                        //     })
+                        //     .error(function () {
+                        //         vm.error = "Could not register. Server not responding"
+                        //     });
                     });
             }
             // else {
